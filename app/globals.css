@@ -7,7 +7,9 @@
   --font-pacifico: 'Pacifico', cursive;
   
 }
-
+ body{
+  background-color: #F5EBE1;
+ }
 
 .no-scrollbar::-webkit-scrollbar {
   display: none;

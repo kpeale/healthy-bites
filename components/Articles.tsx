@@ -1,7 +1,7 @@
 import Image from 'next/image';
 const Articles = () => {
   return (
-    <section className=' bg-[#F5EBE1] py-8 lg:py-12 px-4 sm:px-6 md:px-10 lg:px-20'>
+    <section className='  py-8 lg:py-12 px-4 sm:px-6 md:px-10 lg:px-20'>
       <div className='mx-auto flex flex-col gap-6'>
         <p className=' text-[#003223] font-quicksand font-semibold text-[20px] md:text-[40px] leading-[100%] '>
           Articles

@@ -5,6 +5,8 @@ import Suggested from '@/components/Suggested';
 import Explore from '@/components/Explore';
 import Signup from '@/components/Signup';
 import Articles from '@/components/Articles';
+import About from '@/components/About';
+import Footer from '@/components/Footer';
 
 export default function Home() {
   return (
@@ -16,6 +18,8 @@ export default function Home() {
       <Explore />
       <Signup />
       <Articles />
+      <About />
+      <Footer />
     </>
   );
 }
