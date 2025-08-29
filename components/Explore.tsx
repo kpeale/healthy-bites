@@ -1,7 +1,10 @@
 import Image from 'next/image';
 const Explore = () => {
   return (
-    <section className='  py-10 lg:py-18'>
+    <section
+      className='  py-10 lg:py-18'
+      id='#explore'
+    >
       <h2 className='text-[#003223] font-quicksand font-semibold text-[20px] lg:text-[40px] leading-[100%] text-center'>
         Explore Our Diverse Meal Options
       </h2>

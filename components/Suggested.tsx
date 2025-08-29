@@ -3,7 +3,10 @@ import Image from 'next/image';
 
 const Suggested = () => {
   return (
-    <div className=' pt-10 lg:pt-20'>
+    <section
+      className=' pt-10 lg:pt-20'
+      id='#suggested'
+    >
       <h3 className='text-[#003223] font-semibold text-[20px] lg:text-[40px] leading-[100%] text-center font-quicksand'>
         Suggested for you
       </h3>
@@ -106,7 +109,7 @@ const Suggested = () => {
           See all recipes
         </button>
       </div>
-    </div>
+    </section>
   );
 };
 

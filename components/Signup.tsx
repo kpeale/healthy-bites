@@ -1,6 +1,9 @@
 const Signup = () => {
   return (
-    <div className='relative pt-12 lg:pt-20 flex flex-col items-center justify-center gap-6 md:gap-8 py-10 tab:py-20'>
+    <div
+      className='relative pt-12 lg:pt-20 flex flex-col items-center justify-center gap-6 md:gap-8 py-10 tab:py-20'
+      id='#signup'
+    >
       <div className='absolute inset-0 bg-[url(/bgImage.png)] bg-cover bg-no-repeat '></div>
 
       <div className='absolute inset-0 bg-black/50'></div>

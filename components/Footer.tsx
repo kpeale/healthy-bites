@@ -3,7 +3,10 @@ import Link from 'next/link';
 
 const Footer = () => {
   return (
-    <div className='py-5 lg:pt-10 md:px-10 lg:px-20'>
+    <div
+      className='py-5 lg:pt-10 md:px-10 lg:px-20'
+      id='#footer'
+    >
       <div className='flex flex-col md:flex-row items-center justify-center md:justify-between'>
         <div className='flex flex-row items-center justify-center md:items-start md:justify-start gap-[5px] sm:gap-[10px] lg:gap-[40px] pb-4 md:pb-0'>
           <Image
@@ -28,25 +31,25 @@ const Footer = () => {
 
         <div className='flex flex-col md:flex-row items-center justify-center md:items-start md:justify-start gap-[5px] sm:gap-[10px] lg:tab-[40px] pb-4 md:pb-0'>
           <Link
-            href='/'
+            href='/about'
             className='text-[#003223] font-quicksand font-semibold text-[18px] md:text-lg leading-5 md:leading-8'
           >
             About
           </Link>
           <Link
-            href='/'
+            href='/suggested'
             className='text-[#003223] font-quicksand font-semibold text-[18px] md:text-lg leading-5 md:leading-8'
           >
             Meal plans
           </Link>
           <Link
-            href='/'
+            href='/explore'
             className='text-[#003223] font-quicksand font-semibold text-[18px] md:text-lg leading-5 md:leading-8'
           >
             Recipe
           </Link>
           <Link
-            href='/'
+            href='/signup'
             className='text-[#003223] font-quicksand font-semibold text-[18px] md:text-lg leading-5 md:leading-8'
           >
             Contact

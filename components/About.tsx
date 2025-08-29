@@ -1,6 +1,9 @@
 const About = () => {
   return (
-    <section className='bg-[url(/aboutImg.png)] bg-cover bg-no-repeat flex flex-col mx-auto items-center justify-center lg:items-end lg:justify-end'>
+    <section
+      className='bg-[url(/aboutImg.png)] bg-cover bg-no-repeat flex flex-col mx-auto items-center justify-center lg:items-end lg:justify-end'
+      id='#about'
+    >
       <div className='w-[320px] sm:w-[578px] rounded-[18px] mt-6  lg:m-6 border border-white/30 p-3 lg:p-6 relative bg-gradient-to-t from-white/50 to-white/5 backdrop-blur-md flex flex-col justify-center items-center lg:items-start lg:justify-start'>
         <h3 className='text-[#003223] font-quicksand text-[20px] md:text-[40px] font-semibold leading-[100%]'>
           About

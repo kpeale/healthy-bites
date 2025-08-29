@@ -59,25 +59,25 @@ const Nav = () => {
             Home
           </Link>
           <Link
-            href='/'
+            href='/suggested'
             className='font-semibold text-lg xl:text-[20px] 2xl:text-2xl leading-5 text-white xl:leading-8'
           >
             Recipes
           </Link>
           <Link
-            href='/'
+            href='/explore'
             className='font-semibold text-lg xl:text-[20px] 2xl:text-2xl leading-5 text-white xl:leading-8'
           >
             Meal plan
           </Link>
           <Link
-            href='/'
+            href='/articles'
             className='font-semibold text-lg xl:text-[20px] 2xl:text-2xl leading-5 text-white xl:leading-8'
           >
             Articles
           </Link>
           <Link
-            href='/'
+            href='/about'
             className='font-semibold text-lg xl:text-[20px] 2xl:text-2xl leading-5 text-white xl:leading-8'
           >
             About us
@@ -122,28 +122,28 @@ const Nav = () => {
               Home
             </Link>
             <Link
-              href='/'
+              href='/suggested'
               onClick={closeLinks}
               className='font-semibold text-lg leading-5 text-black'
             >
               Recipes
             </Link>
             <Link
-              href='/'
+              href='/explore'
               onClick={closeLinks}
               className='font-semibold text-lg leading-5 text-black'
             >
               Meal plan
             </Link>
             <Link
-              href='/'
+              href='/articles'
               onClick={closeLinks}
               className='font-semibold text-lg leading-5 text-black'
             >
               Articles
             </Link>
             <Link
-              href='/'
+              href='/about'
               onClick={closeLinks}
               className='font-semibold text-lg leading-5 text-black'
             >

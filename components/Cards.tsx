@@ -3,7 +3,10 @@ import Image from 'next/image';
 
 const Cards = () => {
   return (
-    <div className='grid  grid-cols-1 mt-3 xl:mt-5 pt-5 xl:pt-[5rem] sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 h-auto place-items-center gap-6 '>
+    <div
+      className='grid  grid-cols-1 mt-3 xl:mt-5 pt-5 xl:pt-[5rem] sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 h-auto place-items-center gap-6 '
+      id='#cards'
+    >
       {/* first card */}
       <div className='bg-white w-[193px] h-[208px] rounded-tl-[96.5px] rounded-tr-[96.5px] rounded-br-[8px] rounded-bl-[8px] flex flex-col items-center justify-center gap-2'>
         <div>
