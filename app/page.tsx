@@ -3,6 +3,8 @@ import Nav from '@/components/Nav';
 import Cards from '@/components/Cards';
 import Suggested from '@/components/Suggested';
 import Explore from '@/components/Explore';
+import Signup from '@/components/Signup';
+import Articles from '@/components/Articles';
 
 export default function Home() {
   return (
@@ -12,6 +14,8 @@ export default function Home() {
       <Cards />
       <Suggested />
       <Explore />
+      <Signup />
+      <Articles />
     </>
   );
 }

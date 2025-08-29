@@ -1,7 +1,7 @@
 import Image from 'next/image';
 const Explore = () => {
   return (
-    <section className=' bg-[#F5EBE1] pt-10 lg:pt-18'>
+    <section className=' bg-[#F5EBE1] py-10 lg:py-18'>
       <h2 className='text-[#003223] font-quicksand font-semibold text-[20px] lg:text-[40px] leading-[100%] text-center'>
         Explore Our Diverse Meal Options
       </h2>

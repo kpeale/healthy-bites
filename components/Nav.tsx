@@ -39,7 +39,7 @@ const Nav = () => {
 
       <div
         ref={navRef}
-        className='bg-[#ff6400] w-full xl:w-auto px-5 sm:px-[24px] xl:px-10 2xl:px-[30px] 2xl:w-[2000px] py-0 xl:py-[32px] rounded-sm xl:rounded-3xl fixed flex flex-row gap-6 z-20 justify-between items-center xl:justify-center xl:items-center mx-0  xl:mx-[7rem] my-0 xl:my-5 2xl:justify-between 2xl:gap-20 xl:z-60 '
+        className='bg-[#ff6400] w-full xl:w-auto px-5 sm:px-[24px] xl:px-10 2xl:px-[30px] 2xl:w-[2000px] py-0 xl:py-[32px] rounded-sm xl:rounded-3xl fixed flex flex-row gap-6 z-60 justify-between items-center xl:justify-center xl:items-center mx-0  xl:mx-[7rem] my-0 xl:my-5 2xl:justify-between 2xl:gap-20 xl:z-60 '
       >
         <div className='flex xl:hidden'>
           <button
