@@ -4,7 +4,7 @@ import Link from 'next/link';
 const Footer = () => {
   return (
     <div
-      className='py-5 lg:pt-10 md:px-10 lg:px-20'
+      className='py-5 lg:pt-10 md:px-10 lg:px-20 bg-[#8CC850]'
       id='#footer'
     >
       <div className='flex flex-col md:flex-row items-center justify-center md:justify-between'>
